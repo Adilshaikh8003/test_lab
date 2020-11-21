@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<EmailConfigs>    
+
+    <EmailConfig>
+        <id>contact</id>
+        <fromName>Micro Testting Lab Solutions Pvt. Ltd</fromName>
+        <fromEmail>help@mtlspl.com</fromEmail>
+        <toEmail></toEmail>
+        <subject>Thanks For Contacting With Us</subject>
+        <msgURL>application/libraries/email/contact.html</msgURL>
+        <body><![CDATA[<html> <h1> Hello $1 </h1> Welcome to $2 <strong>AAAA </strong></html>]]></body>
+        <parameters></parameters>
+    </EmailConfig>
+    <EmailConfig>
+        <id>contact_admin</id>
+        <fromName>Micro Testting Lab Solutions Pvt. Ltd</fromName>
+        <fromEmail>help@mtlspl.com</fromEmail>
+        <toEmail></toEmail>
+        <subject>New User Connect with Us</subject>
+        <msgURL>application/libraries/email/contact_admin.html</msgURL>
+        <body><![CDATA[<html> <h1> Hello $1 </h1> Welcome to $2 <strong>AAAA </strong></html>]]></body>
+        <parameters></parameters>
+    </EmailConfig>
+    
+   
+</EmailConfigs>
